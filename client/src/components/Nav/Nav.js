@@ -12,9 +12,20 @@ const Nav = () =>
         <a href="/" className="navbar-brand">
           NYT Scraper
         </a>
-        <a href="#">Main</a>
-        <a href="#">Results</a>
-        <a href="#">Saved</a>
+        <ul className="nav navbar-nav">
+        <li>
+         
+         Main
+        </li>
+        <li>
+       
+        
+         Results
+        </li>
+   <li>
+          Saved
+        </li>
+      </ul>
          
       </div>
     </div>
